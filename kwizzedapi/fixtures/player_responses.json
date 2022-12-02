@@ -1,0 +1,82 @@
+[
+    {
+        "model": "kwizzedapi.playerresponse",
+        "pk": 1,
+        "fields": {
+            "player": 1,
+            "answer": 1
+        }
+    },
+    {
+        "model": "kwizzedapi.playerresponse",
+        "pk": 2,
+        "fields": {
+            "player": 1,
+            "answer": 2
+        }
+    },
+    {
+        "model": "kwizzedapi.playerresponse",
+        "pk": 3,
+        "fields": {
+            "player": 1,
+            "answer": 3
+        }
+    },
+    {
+        "model": "kwizzedapi.playerresponse",
+        "pk": 4,
+        "fields": {
+            "player": 1,
+            "answer": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.playerresponse",
+        "pk": 5,
+        "fields": {
+            "player": 1,
+            "answer": 5
+        }
+    },
+    {
+        "model": "kwizzedapi.playerresponse",
+        "pk": 6,
+        "fields": {
+            "player": 1,
+            "answer": 6
+        }
+    },
+    {
+        "model": "kwizzedapi.playerresponse",
+        "pk": 7,
+        "fields": {
+            "player": 1,
+            "answer": 7
+        }
+    },
+    {
+        "model": "kwizzedapi.playerresponse",
+        "pk": 8,
+        "fields": {
+            "player": 1,
+            "answer": 8
+        }
+    },
+    {
+        "model": "kwizzedapi.playerresponse",
+        "pk": 9,
+        "fields": {
+            "player": 1,
+            "answer": 9
+        }
+    },
+    {
+        "model": "kwizzedapi.playerresponse",
+        "pk": 10,
+        "fields": {
+            "player": 1,
+            "answer": 10
+        }
+    }
+]

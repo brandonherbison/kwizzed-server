@@ -1,0 +1,20 @@
+[
+    {
+        "model": "kwizzedapi.review",
+        "pk": 1,
+        "fields": {
+            "player": 1,
+            "body": "This is a review",
+            "date_posted": "2020-04-01"
+        }
+    },
+    {
+        "model": "kwizzedapi.review",
+        "pk": 2,
+        "fields": {
+            "player": 1,
+            "body": "This is another review",
+            "date_posted": "2020-04-01"
+        }
+    }
+]
