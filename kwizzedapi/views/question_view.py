@@ -18,11 +18,15 @@ class QuestionView(ViewSet):
     
     def list(self, request):
 
-        question = list(Question.objects.all())
+        questions = list(Question.objects.all())
 
         if "category" in request.query_params:
-            question = list(Question.objects.filter(category=request.query_params["category"]))
-            questions = random.sample(question, 10)
+            filtered_questions = list(Question.objects.filter(category=request.query_params["category"]))
+            questions = random.sample(filtered_questions, 10)
+            
+        if "practice" in request.query_params:
+            filtered_questions = list(Question.objects.filter(is_practice=request.query_params["practice"]))
+            questions = random.sample(filtered_questions, 5)
         
         # shuffle the questions and answers
         random.shuffle(questions)

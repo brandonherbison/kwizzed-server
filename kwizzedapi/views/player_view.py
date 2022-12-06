@@ -2,7 +2,7 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from kwizzedapi.models import Player
+from kwizzedapi.models import Player, PlayerResponse, Answer
 from django.contrib.auth.models import User
 
 
@@ -17,8 +17,13 @@ class PlayerView(ViewSet):
     
     def list(self, request):
 
-        player = Player.objects.all()
-        serializer = PlayerSerializer(player, many=True)
+        players = Player.objects.all()
+        player_responses = PlayerResponse.objects.all()
+        answers = Answer.objects.all()
+
+            
+        
+        serializer = PlayerSerializer(players, many=True)
         return Response(serializer.data , status=status.HTTP_200_OK)
     
     def update(self, request, pk):
