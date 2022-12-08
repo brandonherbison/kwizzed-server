@@ -18,10 +18,6 @@ class PlayerView(ViewSet):
     def list(self, request):
 
         players = Player.objects.all()
-        player_responses = PlayerResponse.objects.all()
-        answers = Answer.objects.all()
-
-            
         
         serializer = PlayerSerializer(players, many=True)
         return Response(serializer.data , status=status.HTTP_200_OK)
@@ -33,8 +29,13 @@ class PlayerView(ViewSet):
             Response -- Empty body with 204 status code
         """
         player = Player.objects.get(pk=pk)
+        user = User.objects.get(pk=player.user_id)
+        
+        user.username = request.data["username"]
+        user.email = request.data["email"]
         player.bio = request.data["bio"]
         player.profile_image_url = request.data["profileImageUrl"]
+        user.save()
         player.save()
 
         return Response({}, status=status.HTTP_204_NO_CONTENT)
@@ -61,7 +62,7 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ("username", "is_staff", "email", "is_active")
+        fields = ("username", "is_staff", "email", "is_active",)
 
 
 class PlayerSerializer(serializers.ModelSerializer):
@@ -73,4 +74,4 @@ class PlayerSerializer(serializers.ModelSerializer):
     user = UserSerializer(many=False)
     class Meta:
         model = Player
-        fields = ('id', 'user', 'bio', 'profile_image_url',)
+        fields = ('id', 'full_name', 'token_number', "user", "bio", 'profile_image_url', 'response_count')

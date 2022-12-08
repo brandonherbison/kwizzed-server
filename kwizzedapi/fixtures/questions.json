@@ -6,7 +6,9 @@
             "category": 1,
             "is_practice": true,
             "difficulty_level": "easy",
-            "question_text": "Which Apollo mission was the first one to land on the Moon?"
+            "question_text": "Which Apollo mission was the first one to land on the Moon?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -16,7 +18,9 @@
             "category": 1,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "Which of the following bones is not in the leg?"
+            "question_text": "Which of the following bones is not in the leg?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -26,7 +30,9 @@
             "category": 1,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "Which of these bones is hardest to break?"
+            "question_text": "Which of these bones is hardest to break?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -36,7 +42,9 @@
             "category": 1,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "What is the largest animal currently on Earth?"
+            "question_text": "What is the largest animal currently on Earth?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -46,7 +54,9 @@
             "category": 1,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "What does the letter S stand for in NASA?"
+            "question_text": "What does the letter S stand for in NASA?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -56,7 +66,9 @@
             "category": 1,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "The moons, Miranda, Ariel, Umbriel, Titania and Oberon orbit which planet?"
+            "question_text": "The moons, Miranda, Ariel, Umbriel, Titania and Oberon orbit which planet?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -66,7 +78,9 @@
             "category": 1,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "The humerus, paired radius, and ulna come together to form what joint?"
+            "question_text": "The humerus, paired radius, and ulna come together to form what joint?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -76,7 +90,9 @@
             "category": 1,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "In aeronautics, flaps and slats are used to control what on an aircraft?"
+            "question_text": "In aeronautics, flaps and slats are used to control what on an aircraft?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -86,7 +102,9 @@
             "category": 1,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "Which of these stars is the largest?"
+            "question_text": "Which of these stars is the largest?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -96,7 +114,9 @@
             "category": 1,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "What mineral has the lowest number on the Mohs scale?"
+            "question_text": "What mineral has the lowest number on the Mohs scale?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -106,7 +126,9 @@
             "category": 1,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "What is considered the rarest form of color blindness?"
+            "question_text": "What is considered the rarest form of color blindness?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -116,7 +138,9 @@
             "category": 1,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "Which of the following liquids is least viscous? Assume temperature is 25 degrees celsius."
+            "question_text": "Which of the following liquids is least viscous? Assume temperature is 25 degrees celsius.",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -126,7 +150,9 @@
             "category": 1,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "How many objects are equivalent to one mole?"
+            "question_text": "How many objects are equivalent to one mole?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -136,7 +162,9 @@
             "category": 1,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "This Islets of Langerhans is found in which human organ?"
+            "question_text": "This Islets of Langerhans is found in which human organ?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -146,7 +174,9 @@
             "category": 1,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "How many legs is it biologically impossible for a centipede to have?"
+            "question_text": "How many legs is it biologically impossible for a centipede to have?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -156,7 +186,9 @@
             "category": 2,
             "is_practice": true,
             "difficulty_level": "easy",
-            "question_text": "Which one of these was not a beach landing site in the Invasion of Normandy?"
+            "question_text": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -166,7 +198,9 @@
             "category": 2,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "King Henry VIII was the second monarch of which European royal house?"
+            "question_text": "King Henry VIII was the second monarch of which European royal house?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -176,7 +210,9 @@
             "category": 2,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "What was William Frederick Cody better known as?"
+            "question_text": "What was William Frederick Cody better known as?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -186,7 +222,9 @@
             "category": 2,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "Which German field marshal was known as the `Desert Fox`?"
+            "question_text": "Which German field marshal was known as the `Desert Fox`?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -196,7 +234,9 @@
             "category": 2,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "Who discovered Penicillin?"
+            "question_text": "Who discovered Penicillin?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -206,7 +246,9 @@
             "category": 2,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "The seed drill was invented by which British inventor?"
+            "question_text": "The seed drill was invented by which British inventor?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -216,7 +258,9 @@
             "category": 2,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "During the Mongolian invasions of Japan, what were the Mongol boats mostly stopped by?"
+            "question_text": "During the Mongolian invasions of Japan, what were the Mongol boats mostly stopped by?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -226,7 +270,9 @@
             "category": 2,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "In what year did Neil Armstrong and Buzz Aldrin land on the moon?"
+            "question_text": "In what year did Neil Armstrong and Buzz Aldrin land on the moon?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -236,7 +282,9 @@
             "category": 2,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "Who was the first explorer to sail to North America?"
+            "question_text": "Who was the first explorer to sail to North America?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -246,7 +294,9 @@
             "category": 2,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "In what year was the famous 45 foot tall Hollywood sign first erected?"
+            "question_text": "In what year was the famous 45 foot tall Hollywood sign first erected?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -256,7 +306,9 @@
             "category": 2,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "With which Greek philosopher would you associate the phrase, `I know that I know nothing`?"
+            "question_text": "With which Greek philosopher would you associate the phrase, `I know that I know nothing`?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -266,7 +318,9 @@
             "category": 2,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "When did the French Revolution begin?"
+            "question_text": "When did the French Revolution begin?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -276,7 +330,9 @@
             "category": 2,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "Pianist Fredric Chopin was a composer of which musical era?"
+            "question_text": "Pianist Fredric Chopin was a composer of which musical era?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -286,7 +342,9 @@
             "category": 2,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "Which naval battle was considered the turning point of the Pacific Ocean Theater during World War 2?"
+            "question_text": "Which naval battle was considered the turning point of the Pacific Ocean Theater during World War 2?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -296,7 +354,9 @@
             "category": 2,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?"
+            "question_text": "Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -306,7 +366,9 @@
             "category": 3,
             "is_practice": true,
             "difficulty_level": "easy",
-            "question_text": "Which city is the capital of the United States of America?"
+            "question_text": "Which city is the capital of the United States of America?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -316,7 +378,9 @@
             "category": 3,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "What is the capital of the American state of Arizona?"
+            "question_text": "What is the capital of the American state of Arizona?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -326,7 +390,9 @@
             "category": 3,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "The body of the Egyptian Sphinx was based on which animal?"
+            "question_text": "The body of the Egyptian Sphinx was based on which animal?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -336,7 +402,9 @@
             "category": 3,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "What state is the largest state of the United States of America?"
+            "question_text": "What state is the largest state of the United States of America?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -346,7 +414,9 @@
             "category": 3,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "What country is the second largest in the world by area?"
+            "question_text": "What country is the second largest in the world by area?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -356,7 +426,9 @@
             "category": 3,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "Which state of the United States is the smallest?"
+            "question_text": "Which state of the United States is the smallest?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -366,7 +438,9 @@
             "category": 3,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "On a London Underground map, what colour is the Circle Line?"
+            "question_text": "On a London Underground map, what colour is the Circle Line?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -376,7 +450,9 @@
             "category": 3,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "Montreal is in which Canadian province?"
+            "question_text": "Montreal is in which Canadian province?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -386,7 +462,9 @@
             "category": 3,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "What is the capital of Peru?"
+            "question_text": "What is the capital of Peru?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -396,7 +474,9 @@
             "category": 3,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "What is the only country in the world with a flag that does not have four right angles?"
+            "question_text": "What is the only country in the world with a flag that does not have four right angles?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -406,7 +486,9 @@
             "category": 3,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "What country is not a part of Scandinavia?"
+            "question_text": "What country is not a part of Scandinavia?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -416,7 +498,9 @@
             "category": 3,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "What is the largest city and commercial capital of Sri Lanka?"
+            "question_text": "What is the largest city and commercial capital of Sri Lanka?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -426,7 +510,9 @@
             "category": 3,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "Which of these countries is NOT a part of the Asian continent?"
+            "question_text": "Which of these countries is NOT a part of the Asian continent?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -436,7 +522,9 @@
             "category": 3,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "Which of these island countries is located in the Caribbean?"
+            "question_text": "Which of these island countries is located in the Caribbean?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -446,7 +534,9 @@
             "category": 3,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "Which of these is NOT a city in India?"
+            "question_text": "Which of these is NOT a city in India?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -456,7 +546,9 @@
             "category": 4,
             "is_practice": true,
             "difficulty_level": "easy",
-            "question_text": "Which of the following sports is not part of the triathlon?"
+            "question_text": "Which of the following sports is not part of the triathlon?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -466,7 +558,9 @@
             "category": 4,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "In golf, what name is given to a hole score of two under par?"
+            "question_text": "In golf, what name is given to a hole score of two under par?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -476,7 +570,9 @@
             "category": 4,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "Which English football club has the nickname `The Foxes`?"
+            "question_text": "Which English football club has the nickname `The Foxes`?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -486,7 +582,9 @@
             "category": 4,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "How many soccer players should be on the field at the same time?"
+            "question_text": "How many soccer players should be on the field at the same time?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -496,7 +594,9 @@
             "category": 4,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "In what sport is a `shuttlecock` used?"
+            "question_text": "In what sport is a `shuttlecock` used?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -506,7 +606,9 @@
             "category": 4,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "At which bridge does the annual Oxford and Cambridge boat race start?"
+            "question_text": "At which bridge does the annual Oxford and Cambridge boat race start?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -516,7 +618,9 @@
             "category": 4,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "With which team did Michael Schumacher make his Formula One debut at the 1991 Belgian Grand Prix?"
+            "question_text": "With which team did Michael Schumacher make his Formula One debut at the 1991 Belgian Grand Prix?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -526,7 +630,9 @@
             "category": 4,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "Which German sportswear company logo is the `Formstripe`?"
+            "question_text": "Which German sportswear company logo is the `Formstripe`?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -536,7 +642,9 @@
             "category": 4,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "Which of these teams is not a member of the NHL `Original Six` era?"
+            "question_text": "Which of these teams is not a member of the NHL `Original Six` era?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -546,7 +654,9 @@
             "category": 4,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "Who was the British professional wrestler Shirley Crabtree better known as?"
+            "question_text": "Who was the British professional wrestler Shirley Crabtree better known as?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -556,7 +666,9 @@
             "category": 4,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "How many times did Martina Navratilova win the Wimbledon Singles Championship?"
+            "question_text": "How many times did Martina Navratilova win the Wimbledon Singles Championship?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -566,7 +678,9 @@
             "category": 4,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "What tool lends it's name to a last-stone advantage in an end in Curling?"
+            "question_text": "What tool lends it's name to a last-stone advantage in an end in Curling?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -576,7 +690,9 @@
             "category": 4,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "With which doubles partner did John McEnroe have most success?"
+            "question_text": "With which doubles partner did John McEnroe have most success?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -586,7 +702,9 @@
             "category": 4,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "Where was the Games of the XXII Olympiad held?"
+            "question_text": "Where was the Games of the XXII Olympiad held?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -596,7 +714,9 @@
             "category": 4,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "Which car company is the only Japanese company which won the 24 Hours of Le Mans?"
+            "question_text": "Which car company is the only Japanese company which won the 24 Hours of Le Mans?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -606,7 +726,9 @@
             "category": 5,
             "is_practice": true,
             "difficulty_level": "easy",
-            "question_text": "Who played Agent Fox Mulder in the TV sci-fi drama `The X-Files`?"
+            "question_text": "Who played Agent Fox Mulder in the TV sci-fi drama `The X-Files`?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -616,7 +738,9 @@
             "category": 5,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "In the original Star Trek TV series, what was Captain James T. Kirk's middle name?"
+            "question_text": "In the original Star Trek TV series, what was Captain James T. Kirk's middle name?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -626,7 +750,9 @@
             "category": 5,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "Grant Gustin plays which superhero on the CW show of the same name?"
+            "question_text": "Grant Gustin plays which superhero on the CW show of the same name?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -636,7 +762,9 @@
             "category": 5,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "Which of these Bojack Horseman characters is a human?"
+            "question_text": "Which of these Bojack Horseman characters is a human?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -646,7 +774,9 @@
             "category": 5,
             "is_practice": false,
             "difficulty_level": "easy",
-            "question_text": "Which of these characters in `Stranger Things` has the power of Telekinesis?"
+            "question_text": "Which of these characters in `Stranger Things` has the power of Telekinesis?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -656,7 +786,9 @@
             "category": 5,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "From what show is the character `James Doakes`? "
+            "question_text": "From what show is the character `James Doakes`? ",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -666,7 +798,9 @@
             "category": 5,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "In the TV series `Person of Interest`, who plays the character `Harold Finch`?"
+            "question_text": "In the TV series `Person of Interest`, who plays the character `Harold Finch`?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -676,7 +810,9 @@
             "category": 5,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "What year did the television company BBC officially launch the channel BBC One?"
+            "question_text": "What year did the television company BBC officially launch the channel BBC One?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -686,7 +822,9 @@
             "category": 5,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "What is the title of The Allman Brothers Band instrumental used as the theme to the BBC motoring show, `Top Gear`?"
+            "question_text": "What is the title of The Allman Brothers Band instrumental used as the theme to the BBC motoring show, `Top Gear`?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -696,7 +834,9 @@
             "category": 5,
             "is_practice": false,
             "difficulty_level": "medium",
-            "question_text": "Who sang the theme song for the TV show `Rawhide`?"
+            "question_text": "Who sang the theme song for the TV show `Rawhide`?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -706,7 +846,9 @@
             "category": 5,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "What`s Dr. Doofenshmirtz first name?"
+            "question_text": "What`s Dr. Doofenshmirtz first name?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -716,7 +858,9 @@
             "category": 5,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "In `It`s Always Sunny in Philadelphia` what was the name of Frank`s wrestling persona?"
+            "question_text": "In `It`s Always Sunny in Philadelphia` what was the name of Frank`s wrestling persona?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -726,7 +870,9 @@
             "category": 5,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "Who played the sun baby in the original run of Teletubbies?"
+            "question_text": "Who played the sun baby in the original run of Teletubbies?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -736,7 +882,9 @@
             "category": 5,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "In Star Trek, what is the name of Spock`s father?"
+            "question_text": "In Star Trek, what is the name of Spock`s father?",
+            "is_approved": true,
+            "player_id": 4
         }
     },
     {
@@ -746,7 +894,9 @@
             "category": 5,
             "is_practice": false,
             "difficulty_level": "hard",
-            "question_text": "In `Donkey Kong Country`, why does Donkey Kong want to know the secret of the crystal coconut?"
+            "question_text": "In `Donkey Kong Country`, why does Donkey Kong want to know the secret of the crystal coconut?",
+            "is_approved": true,
+            "player_id": 4
         }
     }
 ]

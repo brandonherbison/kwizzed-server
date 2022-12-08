@@ -25,7 +25,7 @@ class PlayerResponseView(ViewSet):
         Returns:
             Response -- JSON serialized Player_response instance
         """
-        player = Player.objects.get(user=request.auth.user)
+        player = Player.objects.get(pk=request.data['playerId'])
         answer = Answer.objects.get(pk=request.data["answerId"])
         
         new_player_response = PlayerResponse()
@@ -45,4 +45,4 @@ class PlayerResponseSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = PlayerResponse
-        fields = ('id', 'player', 'answer',)
+        fields = ('id', 'player', 'answer', 'is_correct',)

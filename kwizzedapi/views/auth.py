@@ -56,7 +56,7 @@ def register_user(request):
         first_name=request.data['first_name'],
         last_name=request.data['last_name'],
         email=request.data['email'],
-        is_staff=0
+        is_staff=request.data['is_staff']
     )
 
     # Now save the extra info in the kwizzedapi_player table
