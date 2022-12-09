@@ -1,4 +1,4 @@
-from .auth import login_user, register_user, current_user
+from .auth import login_user, register_user
 from .question_view import QuestionView
 from .answer_view import AnswerView
 from .category_view import CategoryView

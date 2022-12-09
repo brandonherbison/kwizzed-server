@@ -10,6 +10,21 @@ class PlayerView(ViewSet):
     """Player View"""
 
     def retrieve(self, request, pk):
+        if pk == "current":
+            user = request.user
+            player = Player.objects.get(user=user)
+            data = {
+                'username' : user.username,
+                'firstName' : user.first_name,
+                'lastName' : user.last_name,
+                'email' : user.email,
+                'isStaff' : user.is_staff,
+                'isActive' : user.is_active,
+                'id' : player.id,
+                'bio' : player.bio,
+                'profileImageUrl' : player.profile_image_url,
+            }
+            return Response(data, status=status.HTTP_200_OK)
 
         player = Player.objects.get(pk=pk)
         serializer = PlayerSerializer(player)
