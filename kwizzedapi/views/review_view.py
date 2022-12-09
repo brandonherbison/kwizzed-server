@@ -56,12 +56,24 @@ class ReviewView(ViewSet):
         except Exception as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
+class PlayerReviewSerializer(serializers.ModelSerializer):
+    """JSON serializer for player reviews
+
+    Arguments:
+        serializers
+    """
+    class Meta:
+        model = Player
+        fields = ('id', 'full_name')
+
 class ReviewSerializer(serializers.ModelSerializer):
     """JSON serializer for reviews
 
     Arguments:
         serializers
     """
+    player = PlayerReviewSerializer(many=False)
+    
     class Meta:
         model = Review
         fields = ('id', 'body', 'player', 'date_posted')
