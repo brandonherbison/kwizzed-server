@@ -71,3 +71,18 @@ def register_user(request):
     # Return the token to the client
     data = { 'token': token.key , 'staff': player.user.is_staff}
     return Response(data)
+
+@api_view(['GET'])
+def current_user(request):
+    user = request.user
+    player = Player.objects.get(user=user)
+    return Response({
+      'username' : user.username,
+      'firstName' : user.first_name,
+      'lastName' : user.last_name,
+      'email' : user.email,
+      'isStaff' : user.is_staff,
+      'id' : player.id,
+      'bio' : player.bio,
+      'profileImageUrl' : player.profile_image_url,
+    })

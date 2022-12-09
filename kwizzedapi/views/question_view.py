@@ -2,7 +2,9 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from kwizzedapi.models import Question, Answer, Category
+from kwizzedapi.models import Question, Answer, Category, Player
+from django.contrib.auth.models import User
+from rest_framework.authtoken.models import Token
 # import shuffle method from random module
 import random
 
@@ -17,19 +19,33 @@ class QuestionView(ViewSet):
         return Response(serializer.data, status=status.HTTP_200_OK)
     
     def list(self, request):
-
-        questions = list(Question.objects.all())
-
-        if "category" in request.query_params:
-            filtered_questions = list(Question.objects.filter(category=request.query_params["category"]))
+        player = Player.objects.get(user=request.auth.user)
+        questions = Question.objects.filter(player=player)
+        category = request.query_params.get("category", None)
+        if category is not None:
+            filtered_questions = list(Question.objects.filter(category=category))
             questions = random.sample(filtered_questions, 10)
+            random.shuffle(questions)
+            serializer = QuestionSerializer(questions, many=True, context={'request': request})
+            return Response(serializer.data , status=status.HTTP_200_OK)
             
-        if "practice" in request.query_params:
+        elif "practice" in request.query_params:
             filtered_questions = list(Question.objects.filter(is_practice=request.query_params["practice"]))
             questions = random.sample(filtered_questions, 5)
+            random.shuffle(questions)
+            serializer = QuestionSerializer(questions, many=True, context={'request': request})
+            return Response(serializer.data , status=status.HTTP_200_OK)
         
-        # shuffle the questions and answers
-        random.shuffle(questions)
+        elif "player" in request.query_params:
+            filtered_questions = list(Question.objects.filter(player=request.query_params["player"]))
+            questions = filtered_questions
+            serializer = QuestionSerializer(questions, many=True, context={'request': request})
+            return Response(serializer.data , status=status.HTTP_200_OK)
+        
+
+            
+        
+        
         serializer = QuestionSerializer(questions, many=True, context={'request': request})
         return Response(serializer.data , status=status.HTTP_200_OK)
 
@@ -40,12 +56,15 @@ class QuestionView(ViewSet):
             Response -- JSON serialized Question instance
         """
         category = Category.objects.get(pk=request.data['categoryId'])
+        player = Player.objects.get(user=request.auth.user)
         
         new_question = Question()
         new_question.question_text = request.data["questionText"]
         new_question.difficulty_level = request.data["difficultyLevel"]
-        new_question.is_practice = request.data["isPractice"]
+        new_question.is_practice = False
         new_question.category = category
+        new_question.player = player
+        new_question.is_approved = False
         new_question.save()
 
         serializer = QuestionSerializer(new_question, context={'request': request})
@@ -107,3 +126,4 @@ class QuestionSerializer(serializers.ModelSerializer):
         model = Question
         fields = ('id', 'question_text', 'is_practice', 'category', 'difficulty_level', 'answers')
         depth = 1
+        
