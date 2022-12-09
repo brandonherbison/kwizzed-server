@@ -19,6 +19,11 @@ class PlayerView(ViewSet):
 
         players = Player.objects.all()
         
+        # if "ranked" in request.query_params:
+        #     players = players.order_by("-correct_response_count")
+        #     serializer = PlayerSerializer(players, many=True)
+        #     return Response(serializer.data , status=status.HTTP_200_OK)
+        
         serializer = PlayerSerializer(players, many=True)
         return Response(serializer.data , status=status.HTTP_200_OK)
     
@@ -33,6 +38,7 @@ class PlayerView(ViewSet):
         
         user.username = request.data["username"]
         user.email = request.data["email"]
+        user.is_active = request.data["isActive"]
         player.bio = request.data["bio"]
         player.profile_image_url = request.data["profileImageUrl"]
         user.save()
@@ -74,4 +80,4 @@ class PlayerSerializer(serializers.ModelSerializer):
     user = UserSerializer(many=False)
     class Meta:
         model = Player
-        fields = ('id', 'full_name', 'token_number', "user", "bio", 'profile_image_url', 'response_count')
+        fields = ('id', 'full_name', "user", "bio", 'profile_image_url', 'response_count', 'correct_response_count')

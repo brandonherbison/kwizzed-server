@@ -5,7 +5,6 @@ from rest_framework import serializers, status
 from kwizzedapi.models import Question, Answer, Category, Player
 from django.contrib.auth.models import User
 from rest_framework.authtoken.models import Token
-# import shuffle method from random module
 import random
 
 
@@ -23,7 +22,7 @@ class QuestionView(ViewSet):
         questions = Question.objects.filter(player=player)
         category = request.query_params.get("category", None)
         if category is not None:
-            filtered_questions = list(Question.objects.filter(category=category))
+            filtered_questions = list(Question.objects.filter(is_approved=True and category==category))
             questions = random.sample(filtered_questions, 10)
             random.shuffle(questions)
             serializer = QuestionSerializer(questions, many=True, context={'request': request})
@@ -38,6 +37,12 @@ class QuestionView(ViewSet):
         
         elif "player" in request.query_params:
             filtered_questions = list(Question.objects.filter(player=request.query_params["player"]))
+            questions = filtered_questions
+            serializer = QuestionSerializer(questions, many=True, context={'request': request})
+            return Response(serializer.data , status=status.HTTP_200_OK)
+        
+        elif "approved" in request.query_params:
+            filtered_questions = list(Question.objects.filter(is_approved=request.query_params["approved"]))
             questions = filtered_questions
             serializer = QuestionSerializer(questions, many=True, context={'request': request})
             return Response(serializer.data , status=status.HTTP_200_OK)
@@ -82,6 +87,7 @@ class QuestionView(ViewSet):
         question.question_text = request.data["questionText"]
         question.difficulty_level = request.data["difficultyLevel"]
         question.is_practice = request.data["isPractice"]
+        question.is_approved = request.data["isApproved"]
         question.category = category
         question.save()
 
@@ -113,6 +119,17 @@ class AnswerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Answer
         fields = ('id', 'answer_text', 'is_correct',)
+        
+class QuestionPlayerSerializer(serializers.ModelSerializer):
+    """JSON serializer for questions
+
+    Arguments:
+        serializers
+    """
+    class Meta:
+        model = Player
+        fields = ('id', 'full_name')
+        depth = 1
 
 class QuestionSerializer(serializers.ModelSerializer):
     """JSON serializer for questions
@@ -122,8 +139,9 @@ class QuestionSerializer(serializers.ModelSerializer):
     """
 
     answers = AnswerSerializer(many=True)
+    player = QuestionPlayerSerializer(many=False)
     class Meta:
         model = Question
-        fields = ('id', 'question_text', 'is_practice', 'category', 'difficulty_level', 'answers')
+        fields = ('id', 'question_text', 'is_practice', 'category', 'difficulty_level', 'answers', 'is_approved', 'player')
         depth = 1
         

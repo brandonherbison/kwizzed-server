@@ -82,6 +82,7 @@ def current_user(request):
       'lastName' : user.last_name,
       'email' : user.email,
       'isStaff' : user.is_staff,
+      'isActive' : user.is_active,
       'id' : player.id,
       'bio' : player.bio,
       'profileImageUrl' : player.profile_image_url,
