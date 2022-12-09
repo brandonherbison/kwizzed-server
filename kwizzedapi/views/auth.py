@@ -69,5 +69,5 @@ def register_user(request):
     # Use the REST Framework's token generator on the new user account
     token = Token.objects.create(user=player.user)
     # Return the token to the client
-    data = { 'token': token.key , 'staff': player.user.is_staff}
+    data = { 'token': token.key , 'valid':True, 'staff': player.user.is_staff}
     return Response(data)

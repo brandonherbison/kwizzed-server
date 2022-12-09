@@ -45,4 +45,4 @@ class PlayerResponseSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = PlayerResponse
-        fields = ('id', 'player', 'answer', 'is_correct',)
+        fields = ('id', 'player', 'answer',)

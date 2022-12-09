@@ -22,8 +22,9 @@ class QuestionView(ViewSet):
         questions = Question.objects.filter(player=player)
         category = request.query_params.get("category", None)
         if category is not None:
-            filtered_questions = list(Question.objects.filter(is_approved=True and category==category))
-            questions = random.sample(filtered_questions, 10)
+            filtered_questions = Question.objects.filter(category=category)
+            approved_questions = list(filtered_questions.filter(is_approved=True))
+            questions = random.sample(approved_questions, 10)
             random.shuffle(questions)
             serializer = QuestionSerializer(questions, many=True, context={'request': request})
             return Response(serializer.data , status=status.HTTP_200_OK)
