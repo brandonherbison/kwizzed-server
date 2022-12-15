@@ -17,8 +17,9 @@ class ReviewView(ViewSet):
     
     def list(self, request):
 
-        review = Review.objects.all()
-        serializer = ReviewSerializer(review, many=True)
+        reviews = Review.objects.all()
+        ordered_reviews = reviews.order_by('-date_posted')
+        serializer = ReviewSerializer(ordered_reviews, many=True)
         return Response(serializer.data , status=status.HTTP_200_OK)
     
     def create(self, request):
@@ -64,7 +65,7 @@ class PlayerReviewSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = Player
-        fields = ('id', 'full_name')
+        fields = ('id', 'full_name', 'profile_image_url')
 
 class ReviewSerializer(serializers.ModelSerializer):
     """JSON serializer for reviews

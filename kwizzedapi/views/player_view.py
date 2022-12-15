@@ -34,10 +34,6 @@ class PlayerView(ViewSet):
 
         players = Player.objects.all()
         
-        # if "ranked" in request.query_params:
-        #     players = players.order_by("-correct_response_count")
-        #     serializer = PlayerSerializer(players, many=True)
-        #     return Response(serializer.data , status=status.HTTP_200_OK)
         
         serializer = PlayerSerializer(players, many=True)
         return Response(serializer.data , status=status.HTTP_200_OK)

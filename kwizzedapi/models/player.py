@@ -1,8 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
-from rest_framework.authtoken.models import Token
 from kwizzedapi.models.player_response import PlayerResponse
-from kwizzedapi.models.answer import Answer
 
 class Player(models.Model):
 
