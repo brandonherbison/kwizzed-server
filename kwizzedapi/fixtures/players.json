@@ -1,0 +1,101 @@
+[
+    {
+        "model": "kwizzedapi.player",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "bio": "I know nothing",
+            "profile_image_url": "https://avatars.githubusercontent.com/u/105457770?v=4"
+        }
+    },
+    {
+        "model": "kwizzedapi.player",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "bio": "Array Assassin. Avid TeeBagger.",
+            "profile_image_url": "https://media-exp1.licdn.com/dms/image/C5603AQF976gF_e5o9w/profile-displayphoto-shrink_800_800/0/1664207792820?e=1675900800&v=beta&t=XvaTglCOt3GNdJ-iF_J4vA0qeeqlpAZARgDQ-sgWsfs"
+        }
+    },
+    {
+        "model": "kwizzedapi.player",
+        "pk": 3,
+        "fields": {
+            "user": 3,
+            "bio": "Coding Wizard",
+            "profile_image_url": "https://media-exp1.licdn.com/dms/image/D5635AQG4KcEJB9Q5MA/profile-framedphoto-shrink_800_800/0/1669824601418?e=1671051600&v=beta&t=TDvsRIRZx2y6qGqp52Z0dkyDWJkZDqcE2Owx7Xctpnc"
+        }
+    },
+    {
+        "model": "kwizzedapi.player",
+        "pk": 4,
+        "fields": {
+            "user": 4,
+            "bio": "Football",
+            "profile_image_url": "https://media-exp1.licdn.com/dms/image/D4E03AQGo_pCTJLh7mg/profile-displayphoto-shrink_800_800/0/1670306229284?e=1675900800&v=beta&t=19oAdLzfJWK_IW-3EUSPh3-R7JU_XhJfYZFXuljllbA"
+        }
+    },
+    {
+        "model": "kwizzedapi.player",
+        "pk": 5,
+        "fields": {
+            "user": 5,
+            "bio": "Coding Guru",
+            "profile_image_url": "https://media-exp1.licdn.com/dms/image/C4D03AQE2e0Pwxj7pWA/profile-displayphoto-shrink_800_800/0/1651330590035?e=1675900800&v=beta&t=eYxm86FRKeDKJh7020UBniSU5sAOphU8ZrgEeLKcTnM"
+        }
+    },
+    {
+        "model": "kwizzedapi.player",
+        "pk": 6,
+        "fields": {
+            "user": 6,
+            "bio": "Trivia Maniac",
+            "profile_image_url": "https://media-exp1.licdn.com/dms/image/C5603AQHX_R0mH0ueew/profile-displayphoto-shrink_800_800/0/1659710885643?e=1675900800&v=beta&t=zcfSCeICufABpH2C_GTj0nCL-xUiuHbGZ8RQU_wsbgg"
+        }
+    },
+    {
+        "model": "kwizzedapi.player",
+        "pk": 8,
+        "fields": {
+            "user": 8,
+            "bio": "Head Coach",
+            "profile_image_url": "asdfadsf"
+        }
+    },
+    {
+        "model": "kwizzedapi.player",
+        "pk": 9,
+        "fields": {
+            "user": 9,
+            "bio": "Code Master. Lover of animals.",
+            "profile_image_url": "https://media-exp1.licdn.com/dms/image/D4D35AQFASBoOBhec9w/profile-framedphoto-shrink_800_800/0/1668715762042?e=1671228000&v=beta&t=rvvYSNHbDA8hWPdv-TzN5VFOH8txVm_ESgr9izPAZr4"
+        }
+    },
+    {
+        "model": "kwizzedapi.player",
+        "pk": 10,
+        "fields": {
+            "user": 10,
+            "bio": "I eat ass.",
+            "profile_image_url": "asd;fhas;dhf;asd"
+        }
+    },
+    {
+        "model": "kwizzedapi.player",
+        "pk": 11,
+        "fields": {
+            "user": 11,
+            "bio": "I am good at trivia.",
+            "profile_image_url": "https://media-exp1.licdn.com/dms/image/D5603AQHhowf60B7sQQ/profile-displayphoto-shrink_800_800/0/1670444424136?e=1676505600&v=beta&t=R9SiYgs4IhUqNQ81bTpbTr_QkHKkN7FYxjHAWdII0WQ"
+        }
+    },
+    {
+        "model": "kwizzedapi.player",
+        "pk": 12,
+        "fields": {
+            "user": 12,
+            "bio": "I liked Busses.",
+            "profile_image_url": "https://media-exp1.licdn.com/dms/image/D4E35AQFDx6bFcq7dsA/profile-framedphoto-shrink_800_800/0/1665581466586?e=1671480000&v=beta&t=nshuVjdnz9T74HZI52k4G43ziEhrJhWT6d4eJg3jMLM"
+        }
+    }
+]

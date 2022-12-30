@@ -70,7 +70,6 @@
             "is_correct": false,
             "question": 2
         }
-
     },
     {
         "model": "kwizzedapi.answer",
@@ -2581,7 +2580,7 @@
             "answer_text": "Day Man",
             "is_correct": false,
             "question": 72
-    }
+        }
     },
     {
         "model": "kwizzedapi.answer",
@@ -2698,6 +2697,366 @@
             "answer_text": "He wants to punish brutes.",
             "is_correct": false,
             "question": 75
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 345,
+        "fields": {
+            "answer_text": "52 Million Miles",
+            "is_correct": false,
+            "question": 88
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 346,
+        "fields": {
+            "answer_text": "87 Million Miles",
+            "is_correct": false,
+            "question": 88
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 347,
+        "fields": {
+            "answer_text": "127 Million Miles",
+            "is_correct": false,
+            "question": 88
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 348,
+        "fields": {
+            "answer_text": "93 Million Miles",
+            "is_correct": true,
+            "question": 88
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 349,
+        "fields": {
+            "answer_text": "Richard Nixon",
+            "is_correct": false,
+            "question": 89
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 350,
+        "fields": {
+            "answer_text": "Donald Trump",
+            "is_correct": false,
+            "question": 89
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 351,
+        "fields": {
+            "answer_text": "Harrison Ford",
+            "is_correct": false,
+            "question": 89
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 352,
+        "fields": {
+            "answer_text": "John F. Kennedy",
+            "is_correct": true,
+            "question": 89
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 353,
+        "fields": {
+            "answer_text": "Asia",
+            "is_correct": true,
+            "question": 90
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 354,
+        "fields": {
+            "answer_text": "Antarctica",
+            "is_correct": false,
+            "question": 90
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 355,
+        "fields": {
+            "answer_text": "Africa",
+            "is_correct": false,
+            "question": 90
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 356,
+        "fields": {
+            "answer_text": "Europe",
+            "is_correct": false,
+            "question": 90
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 361,
+        "fields": {
+            "answer_text": "Australia",
+            "is_correct": false,
+            "question": 92
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 362,
+        "fields": {
+            "answer_text": "United States",
+            "is_correct": false,
+            "question": 92
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 363,
+        "fields": {
+            "answer_text": "India",
+            "is_correct": false,
+            "question": 92
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 364,
+        "fields": {
+            "answer_text": "Canada",
+            "is_correct": true,
+            "question": 92
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 369,
+        "fields": {
+            "answer_text": "An embarrassing photo of Spongebob at last year's Christmas party",
+            "is_correct": true,
+            "question": 94
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 370,
+        "fields": {
+            "answer_text": "A guide to catching jellyfish",
+            "is_correct": false,
+            "question": 94
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 371,
+        "fields": {
+            "answer_text": "Squidward's secret clarinet lessons",
+            "is_correct": false,
+            "question": 94
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 372,
+        "fields": {
+            "answer_text": "The secret formula",
+            "is_correct": false,
+            "question": 94
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 373,
+        "fields": {
+            "answer_text": "Copper",
+            "is_correct": true,
+            "question": 95
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 374,
+        "fields": {
+            "answer_text": "Aluminum",
+            "is_correct": false,
+            "question": 95
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 375,
+        "fields": {
+            "answer_text": "Wire",
+            "is_correct": false,
+            "question": 95
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 376,
+        "fields": {
+            "answer_text": "Bronze",
+            "is_correct": false,
+            "question": 95
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 377,
+        "fields": {
+            "answer_text": "Frank's Fluids",
+            "is_correct": true,
+            "question": 96
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 378,
+        "fields": {
+            "answer_text": "Crown Cola",
+            "is_correct": false,
+            "question": 96
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 379,
+        "fields": {
+            "answer_text": "Wolf Cola",
+            "is_correct": false,
+            "question": 96
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 380,
+        "fields": {
+            "answer_text": "Paddy's Fluids",
+            "is_correct": false,
+            "question": 96
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 381,
+        "fields": {
+            "answer_text": "Robert Pattinson",
+            "is_correct": false,
+            "question": 97
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 382,
+        "fields": {
+            "answer_text": "Adam West",
+            "is_correct": false,
+            "question": 97
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 383,
+        "fields": {
+            "answer_text": "Christian Bale",
+            "is_correct": true,
+            "question": 97
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 384,
+        "fields": {
+            "answer_text": "Ben Affleck",
+            "is_correct": false,
+            "question": 97
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 385,
+        "fields": {
+            "answer_text": "Venus",
+            "is_correct": true,
+            "question": 98
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 386,
+        "fields": {
+            "answer_text": "Mercury",
+            "is_correct": false,
+            "question": 98
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 387,
+        "fields": {
+            "answer_text": "Mars",
+            "is_correct": false,
+            "question": 98
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 388,
+        "fields": {
+            "answer_text": "Jupiter",
+            "is_correct": false,
+            "question": 98
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 389,
+        "fields": {
+            "answer_text": "1932",
+            "is_correct": false,
+            "question": 99
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 390,
+        "fields": {
+            "answer_text": "1938",
+            "is_correct": false,
+            "question": 99
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 391,
+        "fields": {
+            "answer_text": "1918",
+            "is_correct": false,
+            "question": 99
+        }
+    },
+    {
+        "model": "kwizzedapi.answer",
+        "pk": 392,
+        "fields": {
+            "answer_text": "1927",
+            "is_correct": true,
+            "question": 99
         }
     }
 ]

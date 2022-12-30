@@ -3,900 +3,1020 @@
         "model": "kwizzedapi.question",
         "pk": 1,
         "fields": {
-            "category": 1,
-            "is_practice": true,
-            "difficulty_level": "easy",
             "question_text": "Which Apollo mission was the first one to land on the Moon?",
+            "is_practice": true,
+            "category": 1,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
         "model": "kwizzedapi.question",
         "pk": 2,
         "fields": {
-            "category": 1,
-            "is_practice": false,
-            "difficulty_level": "easy",
             "question_text": "Which of the following bones is not in the leg?",
+            "is_practice": false,
+            "category": 1,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
         "model": "kwizzedapi.question",
         "pk": 3,
         "fields": {
-            "category": 1,
-            "is_practice": false,
-            "difficulty_level": "easy",
             "question_text": "Which of these bones is hardest to break?",
+            "is_practice": false,
+            "category": 1,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
         "model": "kwizzedapi.question",
         "pk": 4,
         "fields": {
-            "category": 1,
-            "is_practice": false,
-            "difficulty_level": "easy",
             "question_text": "What is the largest animal currently on Earth?",
+            "is_practice": false,
+            "category": 1,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
         "model": "kwizzedapi.question",
         "pk": 5,
         "fields": {
-            "category": 1,
-            "is_practice": false,
-            "difficulty_level": "easy",
             "question_text": "What does the letter S stand for in NASA?",
+            "is_practice": false,
+            "category": 1,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
         "model": "kwizzedapi.question",
         "pk": 6,
         "fields": {
-            "category": 1,
-            "is_practice": false,
-            "difficulty_level": "medium",
             "question_text": "The moons, Miranda, Ariel, Umbriel, Titania and Oberon orbit which planet?",
+            "is_practice": false,
+            "category": 1,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
         "model": "kwizzedapi.question",
         "pk": 7,
         "fields": {
-            "category": 1,
-            "is_practice": false,
-            "difficulty_level": "medium",
             "question_text": "The humerus, paired radius, and ulna come together to form what joint?",
+            "is_practice": false,
+            "category": 1,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
         "model": "kwizzedapi.question",
         "pk": 8,
         "fields": {
-            "category": 1,
-            "is_practice": false,
-            "difficulty_level": "medium",
             "question_text": "In aeronautics, flaps and slats are used to control what on an aircraft?",
+            "is_practice": false,
+            "category": 1,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
         "model": "kwizzedapi.question",
         "pk": 9,
         "fields": {
-            "category": 1,
-            "is_practice": false,
-            "difficulty_level": "medium",
             "question_text": "Which of these stars is the largest?",
+            "is_practice": false,
+            "category": 1,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
         "model": "kwizzedapi.question",
         "pk": 10,
         "fields": {
-            "category": 1,
-            "is_practice": false,
-            "difficulty_level": "medium",
             "question_text": "What mineral has the lowest number on the Mohs scale?",
+            "is_practice": false,
+            "category": 1,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
         "model": "kwizzedapi.question",
         "pk": 11,
         "fields": {
-            "category": 1,
-            "is_practice": false,
-            "difficulty_level": "hard",
             "question_text": "What is considered the rarest form of color blindness?",
+            "is_practice": false,
+            "category": 1,
+            "difficulty_level": "hard",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
         "model": "kwizzedapi.question",
         "pk": 12,
         "fields": {
-            "category": 1,
-            "is_practice": false,
-            "difficulty_level": "hard",
             "question_text": "Which of the following liquids is least viscous? Assume temperature is 25 degrees celsius.",
+            "is_practice": false,
+            "category": 1,
+            "difficulty_level": "hard",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
         "model": "kwizzedapi.question",
         "pk": 13,
         "fields": {
-            "category": 1,
-            "is_practice": false,
-            "difficulty_level": "hard",
             "question_text": "How many objects are equivalent to one mole?",
+            "is_practice": false,
+            "category": 1,
+            "difficulty_level": "hard",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
         "model": "kwizzedapi.question",
         "pk": 14,
         "fields": {
-            "category": 1,
-            "is_practice": false,
-            "difficulty_level": "hard",
             "question_text": "This Islets of Langerhans is found in which human organ?",
+            "is_practice": false,
+            "category": 1,
+            "difficulty_level": "hard",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
         "model": "kwizzedapi.question",
         "pk": 15,
         "fields": {
-            "category": 1,
-            "is_practice": false,
-            "difficulty_level": "hard",
             "question_text": "How many legs is it biologically impossible for a centipede to have?",
+            "is_practice": false,
+            "category": 1,
+            "difficulty_level": "hard",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":16,
-        "fields":{
-            "category": 2,
-            "is_practice": true,
-            "difficulty_level": "easy",
+        "model": "kwizzedapi.question",
+        "pk": 16,
+        "fields": {
             "question_text": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+            "is_practice": true,
+            "category": 2,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":17,
-        "fields":{
-            "category": 2,
-            "is_practice": false,
-            "difficulty_level": "easy",
+        "model": "kwizzedapi.question",
+        "pk": 17,
+        "fields": {
             "question_text": "King Henry VIII was the second monarch of which European royal house?",
+            "is_practice": false,
+            "category": 2,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":18,
-        "fields":{
-            "category": 2,
-            "is_practice": false,
-            "difficulty_level": "easy",
+        "model": "kwizzedapi.question",
+        "pk": 18,
+        "fields": {
             "question_text": "What was William Frederick Cody better known as?",
+            "is_practice": false,
+            "category": 2,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":19,
-        "fields":{
-            "category": 2,
-            "is_practice": false,
-            "difficulty_level": "easy",
+        "model": "kwizzedapi.question",
+        "pk": 19,
+        "fields": {
             "question_text": "Which German field marshal was known as the `Desert Fox`?",
+            "is_practice": false,
+            "category": 2,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":20,
-        "fields":{
-            "category": 2,
-            "is_practice": false,
-            "difficulty_level": "easy",
+        "model": "kwizzedapi.question",
+        "pk": 20,
+        "fields": {
             "question_text": "Who discovered Penicillin?",
+            "is_practice": false,
+            "category": 2,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":21,
-        "fields":{
-            "category": 2,
-            "is_practice": false,
-            "difficulty_level": "medium",
+        "model": "kwizzedapi.question",
+        "pk": 21,
+        "fields": {
             "question_text": "The seed drill was invented by which British inventor?",
+            "is_practice": false,
+            "category": 2,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":22,
-        "fields":{
-            "category": 2,
-            "is_practice": false,
-            "difficulty_level": "medium",
+        "model": "kwizzedapi.question",
+        "pk": 22,
+        "fields": {
             "question_text": "During the Mongolian invasions of Japan, what were the Mongol boats mostly stopped by?",
+            "is_practice": false,
+            "category": 2,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":23,
-        "fields":{
-            "category": 2,
-            "is_practice": false,
-            "difficulty_level": "medium",
+        "model": "kwizzedapi.question",
+        "pk": 23,
+        "fields": {
             "question_text": "In what year did Neil Armstrong and Buzz Aldrin land on the moon?",
+            "is_practice": false,
+            "category": 2,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":24,
-        "fields":{
-            "category": 2,
-            "is_practice": false,
-            "difficulty_level": "medium",
+        "model": "kwizzedapi.question",
+        "pk": 24,
+        "fields": {
             "question_text": "Who was the first explorer to sail to North America?",
+            "is_practice": false,
+            "category": 2,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":25,
-        "fields":{
-            "category": 2,
-            "is_practice": false,
-            "difficulty_level": "medium",
+        "model": "kwizzedapi.question",
+        "pk": 25,
+        "fields": {
             "question_text": "In what year was the famous 45 foot tall Hollywood sign first erected?",
+            "is_practice": false,
+            "category": 2,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":26,
-        "fields":{
-            "category": 2,
-            "is_practice": false,
-            "difficulty_level": "hard",
+        "model": "kwizzedapi.question",
+        "pk": 26,
+        "fields": {
             "question_text": "With which Greek philosopher would you associate the phrase, `I know that I know nothing`?",
+            "is_practice": false,
+            "category": 2,
+            "difficulty_level": "hard",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":27,
-        "fields":{
-            "category": 2,
-            "is_practice": false,
-            "difficulty_level": "hard",
+        "model": "kwizzedapi.question",
+        "pk": 27,
+        "fields": {
             "question_text": "When did the French Revolution begin?",
+            "is_practice": false,
+            "category": 2,
+            "difficulty_level": "hard",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":28,
-        "fields":{
-            "category": 2,
-            "is_practice": false,
-            "difficulty_level": "hard",
+        "model": "kwizzedapi.question",
+        "pk": 28,
+        "fields": {
             "question_text": "Pianist Fredric Chopin was a composer of which musical era?",
+            "is_practice": false,
+            "category": 2,
+            "difficulty_level": "hard",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":29,
-        "fields":{
-            "category": 2,
-            "is_practice": false,
-            "difficulty_level": "hard",
+        "model": "kwizzedapi.question",
+        "pk": 29,
+        "fields": {
             "question_text": "Which naval battle was considered the turning point of the Pacific Ocean Theater during World War 2?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":30,
-        "fields":{
+            "is_practice": false,
             "category": 2,
-            "is_practice": false,
             "difficulty_level": "hard",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 30,
+        "fields": {
             "question_text": "Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?",
+            "is_practice": false,
+            "category": 2,
+            "difficulty_level": "hard",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":31,
-        "fields":{
-            "category": 3,
-            "is_practice": true,
-            "difficulty_level": "easy",
+        "model": "kwizzedapi.question",
+        "pk": 31,
+        "fields": {
             "question_text": "Which city is the capital of the United States of America?",
+            "is_practice": true,
+            "category": 3,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":32,
-        "fields":{
-            "category": 3,
-            "is_practice": false,
-            "difficulty_level": "easy",
+        "model": "kwizzedapi.question",
+        "pk": 32,
+        "fields": {
             "question_text": "What is the capital of the American state of Arizona?",
+            "is_practice": false,
+            "category": 3,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":33,
-        "fields":{
-            "category": 3,
-            "is_practice": false,
-            "difficulty_level": "easy",
+        "model": "kwizzedapi.question",
+        "pk": 33,
+        "fields": {
             "question_text": "The body of the Egyptian Sphinx was based on which animal?",
+            "is_practice": false,
+            "category": 3,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":34,
-        "fields":{
-            "category": 3,
-            "is_practice": false,
-            "difficulty_level": "easy",
+        "model": "kwizzedapi.question",
+        "pk": 34,
+        "fields": {
             "question_text": "What state is the largest state of the United States of America?",
+            "is_practice": false,
+            "category": 3,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":35,
-        "fields":{
-            "category": 3,
-            "is_practice": false,
-            "difficulty_level": "easy",
+        "model": "kwizzedapi.question",
+        "pk": 35,
+        "fields": {
             "question_text": "What country is the second largest in the world by area?",
+            "is_practice": false,
+            "category": 3,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":36,
-        "fields":{
-            "category": 3,
-            "is_practice": false,
-            "difficulty_level": "medium",
+        "model": "kwizzedapi.question",
+        "pk": 36,
+        "fields": {
             "question_text": "Which state of the United States is the smallest?",
+            "is_practice": false,
+            "category": 3,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":37,
-        "fields":{
-            "category": 3,
-            "is_practice": false,
-            "difficulty_level": "medium",
+        "model": "kwizzedapi.question",
+        "pk": 37,
+        "fields": {
             "question_text": "On a London Underground map, what colour is the Circle Line?",
+            "is_practice": false,
+            "category": 3,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":38,
-        "fields":{
-            "category": 3,
-            "is_practice": false,
-            "difficulty_level": "medium",
+        "model": "kwizzedapi.question",
+        "pk": 38,
+        "fields": {
             "question_text": "Montreal is in which Canadian province?",
+            "is_practice": false,
+            "category": 3,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":39,
-        "fields":{
-            "category": 3,
-            "is_practice": false,
-            "difficulty_level": "medium",
+        "model": "kwizzedapi.question",
+        "pk": 39,
+        "fields": {
             "question_text": "What is the capital of Peru?",
+            "is_practice": false,
+            "category": 3,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":40,
-        "fields":{
-            "category": 3,
-            "is_practice": false,
-            "difficulty_level": "medium",
+        "model": "kwizzedapi.question",
+        "pk": 40,
+        "fields": {
             "question_text": "What is the only country in the world with a flag that does not have four right angles?",
+            "is_practice": false,
+            "category": 3,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":41,
-        "fields":{
-            "category": 3,
-            "is_practice": false,
-            "difficulty_level": "hard",
+        "model": "kwizzedapi.question",
+        "pk": 41,
+        "fields": {
             "question_text": "What country is not a part of Scandinavia?",
+            "is_practice": false,
+            "category": 3,
+            "difficulty_level": "hard",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":42,
-        "fields":{
-            "category": 3,
-            "is_practice": false,
-            "difficulty_level": "hard",
+        "model": "kwizzedapi.question",
+        "pk": 42,
+        "fields": {
             "question_text": "What is the largest city and commercial capital of Sri Lanka?",
+            "is_practice": false,
+            "category": 3,
+            "difficulty_level": "hard",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":43,
-        "fields":{
-            "category": 3,
-            "is_practice": false,
-            "difficulty_level": "hard",
+        "model": "kwizzedapi.question",
+        "pk": 43,
+        "fields": {
             "question_text": "Which of these countries is NOT a part of the Asian continent?",
+            "is_practice": false,
+            "category": 3,
+            "difficulty_level": "hard",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":44,
-        "fields":{
-            "category": 3,
-            "is_practice": false,
-            "difficulty_level": "hard",
+        "model": "kwizzedapi.question",
+        "pk": 44,
+        "fields": {
             "question_text": "Which of these island countries is located in the Caribbean?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":45,
-        "fields":{
+            "is_practice": false,
             "category": 3,
-            "is_practice": false,
             "difficulty_level": "hard",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 45,
+        "fields": {
             "question_text": "Which of these is NOT a city in India?",
+            "is_practice": false,
+            "category": 3,
+            "difficulty_level": "hard",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":46,
-        "fields":{
-            "category": 4,
-            "is_practice": true,
-            "difficulty_level": "easy",
+        "model": "kwizzedapi.question",
+        "pk": 46,
+        "fields": {
             "question_text": "Which of the following sports is not part of the triathlon?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":47,
-        "fields":{
-            "category": 4,
-            "is_practice": false,
-            "difficulty_level": "easy",
-            "question_text": "In golf, what name is given to a hole score of two under par?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":48,
-        "fields":{
-            "category": 4,
-            "is_practice": false,
-            "difficulty_level": "easy",
-            "question_text": "Which English football club has the nickname `The Foxes`?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":49,
-        "fields":{
-            "category": 4,
-            "is_practice": false,
-            "difficulty_level": "easy",
-            "question_text": "How many soccer players should be on the field at the same time?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":50,
-        "fields":{
-            "category": 4,
-            "is_practice": false,
-            "difficulty_level": "easy",
-            "question_text": "In what sport is a `shuttlecock` used?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":51,
-        "fields":{
-            "category": 4,
-            "is_practice": false,
-            "difficulty_level": "medium",
-            "question_text": "At which bridge does the annual Oxford and Cambridge boat race start?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":52,
-        "fields":{
-            "category": 4,
-            "is_practice": false,
-            "difficulty_level": "medium",
-            "question_text": "With which team did Michael Schumacher make his Formula One debut at the 1991 Belgian Grand Prix?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":53,
-        "fields":{
-            "category": 4,
-            "is_practice": false,
-            "difficulty_level": "medium",
-            "question_text": "Which German sportswear company logo is the `Formstripe`?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":54,
-        "fields":{
-            "category": 4,
-            "is_practice": false,
-            "difficulty_level": "medium",
-            "question_text": "Which of these teams is not a member of the NHL `Original Six` era?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":55,
-        "fields":{
-            "category": 4,
-            "is_practice": false,
-            "difficulty_level": "medium",
-            "question_text": "Who was the British professional wrestler Shirley Crabtree better known as?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":56,
-        "fields":{
-            "category": 4,
-            "is_practice": false,
-            "difficulty_level": "hard",
-            "question_text": "How many times did Martina Navratilova win the Wimbledon Singles Championship?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":57,
-        "fields":{
-            "category": 4,
-            "is_practice": false,
-            "difficulty_level": "hard",
-            "question_text": "What tool lends it's name to a last-stone advantage in an end in Curling?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":58,
-        "fields":{
-            "category": 4,
-            "is_practice": false,
-            "difficulty_level": "hard",
-            "question_text": "With which doubles partner did John McEnroe have most success?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":59,
-        "fields":{
-            "category": 4,
-            "is_practice": false,
-            "difficulty_level": "hard",
-            "question_text": "Where was the Games of the XXII Olympiad held?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":60,
-        "fields":{
-            "category": 4,
-            "is_practice": false,
-            "difficulty_level": "hard",
-            "question_text": "Which car company is the only Japanese company which won the 24 Hours of Le Mans?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":61,
-        "fields":{
-            "category": 5,
             "is_practice": true,
+            "category": 4,
             "difficulty_level": "easy",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 47,
+        "fields": {
+            "question_text": "In golf, what name is given to a hole score of two under par?",
+            "is_practice": false,
+            "category": 4,
+            "difficulty_level": "easy",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 48,
+        "fields": {
+            "question_text": "Which English football club has the nickname `The Foxes`?",
+            "is_practice": false,
+            "category": 4,
+            "difficulty_level": "easy",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 49,
+        "fields": {
+            "question_text": "How many soccer players should be on the field at the same time?",
+            "is_practice": false,
+            "category": 4,
+            "difficulty_level": "easy",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 50,
+        "fields": {
+            "question_text": "In what sport is a `shuttlecock` used?",
+            "is_practice": false,
+            "category": 4,
+            "difficulty_level": "easy",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 51,
+        "fields": {
+            "question_text": "At which bridge does the annual Oxford and Cambridge boat race start?",
+            "is_practice": false,
+            "category": 4,
+            "difficulty_level": "medium",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 52,
+        "fields": {
+            "question_text": "With which team did Michael Schumacher make his Formula One debut at the 1991 Belgian Grand Prix?",
+            "is_practice": false,
+            "category": 4,
+            "difficulty_level": "medium",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 53,
+        "fields": {
+            "question_text": "Which German sportswear company logo is the `Formstripe`?",
+            "is_practice": false,
+            "category": 4,
+            "difficulty_level": "medium",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 54,
+        "fields": {
+            "question_text": "Which of these teams is not a member of the NHL `Original Six` era?",
+            "is_practice": false,
+            "category": 4,
+            "difficulty_level": "medium",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 55,
+        "fields": {
+            "question_text": "Who was the British professional wrestler Shirley Crabtree better known as?",
+            "is_practice": false,
+            "category": 4,
+            "difficulty_level": "medium",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 56,
+        "fields": {
+            "question_text": "How many times did Martina Navratilova win the Wimbledon Singles Championship?",
+            "is_practice": false,
+            "category": 4,
+            "difficulty_level": "hard",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 57,
+        "fields": {
+            "question_text": "What tool lends it's name to a last-stone advantage in an end in Curling?",
+            "is_practice": false,
+            "category": 4,
+            "difficulty_level": "hard",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 58,
+        "fields": {
+            "question_text": "With which doubles partner did John McEnroe have most success?",
+            "is_practice": false,
+            "category": 4,
+            "difficulty_level": "hard",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 59,
+        "fields": {
+            "question_text": "Where was the Games of the XXII Olympiad held?",
+            "is_practice": false,
+            "category": 4,
+            "difficulty_level": "hard",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 60,
+        "fields": {
+            "question_text": "Which car company is the only Japanese company which won the 24 Hours of Le Mans?",
+            "is_practice": false,
+            "category": 4,
+            "difficulty_level": "hard",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 61,
+        "fields": {
             "question_text": "Who played Agent Fox Mulder in the TV sci-fi drama `The X-Files`?",
+            "is_practice": true,
+            "category": 5,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":62,
-        "fields":{
-            "category": 5,
-            "is_practice": false,
-            "difficulty_level": "easy",
+        "model": "kwizzedapi.question",
+        "pk": 62,
+        "fields": {
             "question_text": "In the original Star Trek TV series, what was Captain James T. Kirk's middle name?",
+            "is_practice": false,
+            "category": 5,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":63,
-        "fields":{
-            "category": 5,
-            "is_practice": false,
-            "difficulty_level": "easy",
+        "model": "kwizzedapi.question",
+        "pk": 63,
+        "fields": {
             "question_text": "Grant Gustin plays which superhero on the CW show of the same name?",
+            "is_practice": false,
+            "category": 5,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":64,
-        "fields":{
-            "category": 5,
-            "is_practice": false,
-            "difficulty_level": "easy",
+        "model": "kwizzedapi.question",
+        "pk": 64,
+        "fields": {
             "question_text": "Which of these Bojack Horseman characters is a human?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":65,
-        "fields":{
-            "category": 5,
             "is_practice": false,
+            "category": 5,
             "difficulty_level": "easy",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 65,
+        "fields": {
             "question_text": "Which of these characters in `Stranger Things` has the power of Telekinesis?",
+            "is_practice": false,
+            "category": 5,
+            "difficulty_level": "easy",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":66,
-        "fields":{
-            "category": 5,
-            "is_practice": false,
-            "difficulty_level": "medium",
+        "model": "kwizzedapi.question",
+        "pk": 66,
+        "fields": {
             "question_text": "From what show is the character `James Doakes`? ",
+            "is_practice": false,
+            "category": 5,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":67,
-        "fields":{
-            "category": 5,
-            "is_practice": false,
-            "difficulty_level": "medium",
+        "model": "kwizzedapi.question",
+        "pk": 67,
+        "fields": {
             "question_text": "In the TV series `Person of Interest`, who plays the character `Harold Finch`?",
+            "is_practice": false,
+            "category": 5,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":68,
-        "fields":{
-            "category": 5,
-            "is_practice": false,
-            "difficulty_level": "medium",
+        "model": "kwizzedapi.question",
+        "pk": 68,
+        "fields": {
             "question_text": "What year did the television company BBC officially launch the channel BBC One?",
+            "is_practice": false,
+            "category": 5,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":69,
-        "fields":{
-            "category": 5,
-            "is_practice": false,
-            "difficulty_level": "medium",
+        "model": "kwizzedapi.question",
+        "pk": 69,
+        "fields": {
             "question_text": "What is the title of The Allman Brothers Band instrumental used as the theme to the BBC motoring show, `Top Gear`?",
-            "is_approved": true,
-            "player_id": 4
-        }
-    },
-    {
-        "model":"kwizzedapi.question",
-        "pk":70,
-        "fields":{
-            "category": 5,
             "is_practice": false,
+            "category": 5,
             "difficulty_level": "medium",
+            "is_approved": true,
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 70,
+        "fields": {
             "question_text": "Who sang the theme song for the TV show `Rawhide`?",
+            "is_practice": false,
+            "category": 5,
+            "difficulty_level": "medium",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":71,
-        "fields":{
-            "category": 5,
-            "is_practice": false,
-            "difficulty_level": "hard",
+        "model": "kwizzedapi.question",
+        "pk": 71,
+        "fields": {
             "question_text": "What`s Dr. Doofenshmirtz first name?",
+            "is_practice": false,
+            "category": 5,
+            "difficulty_level": "hard",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":72,
-        "fields":{
-            "category": 5,
-            "is_practice": false,
-            "difficulty_level": "hard",
+        "model": "kwizzedapi.question",
+        "pk": 72,
+        "fields": {
             "question_text": "In `It`s Always Sunny in Philadelphia` what was the name of Frank`s wrestling persona?",
+            "is_practice": false,
+            "category": 5,
+            "difficulty_level": "hard",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":73,
-        "fields":{
-            "category": 5,
-            "is_practice": false,
-            "difficulty_level": "hard",
+        "model": "kwizzedapi.question",
+        "pk": 73,
+        "fields": {
             "question_text": "Who played the sun baby in the original run of Teletubbies?",
+            "is_practice": false,
+            "category": 5,
+            "difficulty_level": "hard",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":74,
-        "fields":{
-            "category": 5,
-            "is_practice": false,
-            "difficulty_level": "hard",
+        "model": "kwizzedapi.question",
+        "pk": 74,
+        "fields": {
             "question_text": "In Star Trek, what is the name of Spock`s father?",
+            "is_practice": false,
+            "category": 5,
+            "difficulty_level": "hard",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
         }
     },
     {
-        "model":"kwizzedapi.question",
-        "pk":75,
-        "fields":{
-            "category": 5,
-            "is_practice": false,
-            "difficulty_level": "hard",
+        "model": "kwizzedapi.question",
+        "pk": 75,
+        "fields": {
             "question_text": "In `Donkey Kong Country`, why does Donkey Kong want to know the secret of the crystal coconut?",
+            "is_practice": false,
+            "category": 5,
+            "difficulty_level": "hard",
             "is_approved": true,
-            "player_id": 4
+            "player": 4
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 88,
+        "fields": {
+            "question_text": "What is the distance (in miles) between the Earth and the Sun?",
+            "is_practice": false,
+            "category": 1,
+            "difficulty_level": "medium",
+            "is_approved": true,
+            "player": 3
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 89,
+        "fields": {
+            "question_text": "Who was the United States president during the Cuban Missile Crisis?",
+            "is_practice": false,
+            "category": 2,
+            "difficulty_level": "medium",
+            "is_approved": true,
+            "player": 3
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 90,
+        "fields": {
+            "question_text": "What is the Earth's largest continent?",
+            "is_practice": false,
+            "category": 3,
+            "difficulty_level": "medium",
+            "is_approved": true,
+            "player": 2
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 92,
+        "fields": {
+            "question_text": "What country has the most natural lakes?",
+            "is_practice": false,
+            "category": 3,
+            "difficulty_level": "hard",
+            "is_approved": true,
+            "player": 3
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 94,
+        "fields": {
+            "question_text": "What does the string open in Patrick's secret box?",
+            "is_practice": false,
+            "category": 5,
+            "difficulty_level": "hard",
+            "is_approved": true,
+            "player": 11
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 95,
+        "fields": {
+            "question_text": "What is the conductive element used by Walter White to charge the RV battery when he and Jesse are stuck in the dessert?",
+            "is_practice": false,
+            "category": 5,
+            "difficulty_level": "hard",
+            "is_approved": true,
+            "player": 11
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 96,
+        "fields": {
+            "question_text": "What is the name of Frank's holding company in It's Always Sunny In Philadelphia? ",
+            "is_practice": false,
+            "category": 5,
+            "difficulty_level": "medium",
+            "is_approved": true,
+            "player": 10
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 97,
+        "fields": {
+            "question_text": "Who played Batman in Christopher Nolan's `The Dark Night` trilogy?",
+            "is_practice": false,
+            "category": 5,
+            "difficulty_level": "medium",
+            "is_approved": true,
+            "player": 3
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 98,
+        "fields": {
+            "question_text": "Which planet is the hottest in the Solar System?",
+            "is_practice": false,
+            "category": 1,
+            "difficulty_level": "easy",
+            "is_approved": true,
+            "player": 12
+        }
+    },
+    {
+        "model": "kwizzedapi.question",
+        "pk": 99,
+        "fields": {
+            "question_text": "In what year was the television invented?",
+            "is_practice": false,
+            "category": 2,
+            "difficulty_level": "hard",
+            "is_approved": true,
+            "player": 2
         }
     }
 ]

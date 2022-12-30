@@ -1,0 +1,82 @@
+[
+    {
+        "model": "kwizzedapi.achievement",
+        "pk": 1,
+        "fields": {
+            "name": "Scientist",
+            "description": "Answered 100 Science questions correctly"
+        }
+    },
+    {
+        "model": "kwizzedapi.achievement",
+        "pk": 2,
+        "fields": {
+            "name": "Mathematician",
+            "description": "Answered 100 Math questions correctly"
+        }
+    },
+    {
+        "model": "kwizzedapi.achievement",
+        "pk": 3,
+        "fields": {
+            "name": "Geographer",
+            "description": "Answered 100 Geography questions correctly"
+        }
+    },
+    {
+        "model": "kwizzedapi.achievement",
+        "pk": 4,
+        "fields": {
+            "name": "Historian",
+            "description": "Answered 100 History questions correctly"
+        }
+    },
+    {
+        "model": "kwizzedapi.achievement",
+        "pk": 5,
+        "fields": {
+            "name": "Literary Genius",
+            "description": "Answered 100 Literature questions correctly"
+        }
+    },
+    {
+        "model": "kwizzedapi.achievement",
+        "pk": 6,
+        "fields": {
+            "name": "Musician",
+            "description": "Answered 100 Music questions correctly"
+        }
+    },
+    {
+        "model": "kwizzedapi.achievement",
+        "pk": 7,
+        "fields": {
+            "name": "Artist",
+            "description": "Answered 100 Art questions correctly"
+        }
+    },
+    {
+        "model": "kwizzedapi.achievement",
+        "pk": 8,
+        "fields": {
+            "name": "Philosopher",
+            "description": "Answered 100 Philosophy questions correctly"
+        }
+    },
+    {
+        "model": "kwizzedapi.achievement",
+        "pk": 9,
+        "fields": {
+            "name": "Sports Fan",
+            "description": "Answered 100 Sports questions correctly"
+        }
+    },
+    {
+        "model": "kwizzedapi.achievement",
+        "pk": 10,
+        "fields": {
+            "name": "Movie Buff",
+            "description": "Answered 100 Movies questions correctly"
+        }
+    }
+]

@@ -11,7 +11,7 @@ class PlayerView(ViewSet):
 
     def retrieve(self, request, pk):
         if pk == "current":
-            user = request.user
+            user = request.user    
             player = Player.objects.get(user=user)
             data = {
                 'username' : user.username,
@@ -33,7 +33,6 @@ class PlayerView(ViewSet):
     def list(self, request):
 
         players = Player.objects.all()
-        
         
         serializer = PlayerSerializer(players, many=True)
         return Response(serializer.data , status=status.HTTP_200_OK)
