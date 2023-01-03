@@ -23,7 +23,7 @@ class PlayerResponseView(ViewSet):
         category = self.request.query_params.get('category', None)
         correct = self.request.query_params.get('correct', None)
         question = self.request.query_params.get('question', None)
-        
+                
         if player is not None and category is None:
             playerResponse = playerResponse.filter(player__id=player)
             playerResponse = playerResponse.order_by('-id')[:10]
@@ -36,6 +36,7 @@ class PlayerResponseView(ViewSet):
             correct_responses = playerResponse.filter(answer__is_correct=True)
             category_count = correct_responses.count()
             return Response(category_count, status=status.HTTP_200_OK)
+        
         
         elif player is None and category is not None and correct is not None:
             playerResponse = playerResponse.filter(answer__question__category__id=category)
