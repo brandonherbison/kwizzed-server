@@ -32,7 +32,7 @@ class CategoryView(ViewSet):
 
         serializer = CategorySerializer(new_category, context={'request': request})
 
-        return Response(serializer.data)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
     
     def destroy(self, request, pk=None):
         """Handle DELETE requests for a single category
@@ -48,9 +48,6 @@ class CategoryView(ViewSet):
 
         except Category.DoesNotExist as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
-
-        except Exception as ex:
-            return Response({'message': ex.args[0]}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
 
 class CategorySerializer(serializers.ModelSerializer):
     """JSON serializer for categorys

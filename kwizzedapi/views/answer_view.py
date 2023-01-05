@@ -36,7 +36,7 @@ class AnswerView(ViewSet):
 
         serializer = AnswerSerializer(new_answer, context={'request': request})
 
-        return Response(serializer.data)
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
     
     def update(self, request, pk=None):
         """Handle PUT requests for an answer

@@ -23,11 +23,15 @@ class QuestionView(ViewSet):
         category = request.query_params.get("category", None)
         if category is not None:
             filtered_questions = Question.objects.filter(category=category)
-            approved_questions = list(filtered_questions.filter(is_approved=True))
-            questions = random.sample(approved_questions, 10)
-            random.shuffle(questions)
-            serializer = QuestionSerializer(questions, many=True, context={'request': request})
-            return Response(serializer.data , status=status.HTTP_200_OK)
+            if filtered_questions.count() < 10:
+                return Response({"message": "Not enough questions in this category. Please allow us time to generate questions."}, status=status.HTTP_404_NOT_FOUND)
+            else:
+                questions = filtered_questions
+                approved_questions = list(filtered_questions.filter(is_approved=True))
+                questions = random.sample(approved_questions, 10)
+                random.shuffle(questions)
+                serializer = QuestionSerializer(questions, many=True, context={'request': request})
+                return Response(serializer.data , status=status.HTTP_200_OK)
             
         elif "practice" in request.query_params:
             filtered_questions = list(Question.objects.filter(is_practice=request.query_params["practice"]))
@@ -64,13 +68,18 @@ class QuestionView(ViewSet):
         category = Category.objects.get(pk=request.data['categoryId'])
         player = Player.objects.get(user=request.auth.user)
         
+        if player.user.is_staff:
+            is_approved = True
+        else: 
+            is_approved = False 
+        
         new_question = Question()
         new_question.question_text = request.data["questionText"]
         new_question.difficulty_level = request.data["difficultyLevel"]
         new_question.is_practice = False
         new_question.category = category
         new_question.player = player
-        new_question.is_approved = False
+        new_question.is_approved = is_approved
         new_question.save()
 
         serializer = QuestionSerializer(new_question, context={'request': request})
