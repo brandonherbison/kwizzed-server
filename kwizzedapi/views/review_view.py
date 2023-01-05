@@ -10,20 +10,20 @@ class ReviewView(ViewSet):
     """Review View"""
 
     def retrieve(self, request, pk):
-
+        """Handles GET requests for single review"""
         review = Review.objects.get(pk=pk)
         serializer = ReviewSerializer(review)
         return Response(serializer.data, status=status.HTTP_200_OK)
     
     def list(self, request):
-
+        """Handles GET requests to review resource"""
         reviews = Review.objects.all()
         ordered_reviews = reviews.order_by('-date_posted')
         serializer = ReviewSerializer(ordered_reviews, many=True)
         return Response(serializer.data , status=status.HTTP_200_OK)
     
     def create(self, request):
-        """Handle POST operations
+        """Handles POST operations for reviews
 
         Returns:
             Response -- JSON serialized Review instance
@@ -40,7 +40,7 @@ class ReviewView(ViewSet):
         return Response(serializer.data)
     
     def destroy(self, request, pk=None):
-        """Handle DELETE requests for a single review
+        """Handles DELETE requests for a single review
 
         Returns:
             Response -- 200, 404, or 500 status code

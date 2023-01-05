@@ -9,19 +9,24 @@ class CategoryView(ViewSet):
     """Category View"""
 
     def retrieve(self, request, pk):
+        """Handles GET requests for single category"""
 
         category = Category.objects.get(pk=pk)
         serializer = CategorySerializer(category)
         return Response(serializer.data, status=status.HTTP_200_OK)
     
     def list(self, request):
+        """Handles GET requests to category resource
+        Returns:
+        Response -- JSON serialized list of categories
+        """
 
         category = Category.objects.all()
         serializer = CategorySerializer(category, many=True)
         return Response(serializer.data , status=status.HTTP_200_OK)
     
     def create(self, request):
-        """Handle POST operations
+        """Handle POST operations for categories
 
         Returns:
             Response -- JSON serialized Category instance
@@ -35,7 +40,7 @@ class CategoryView(ViewSet):
         return Response(serializer.data, status=status.HTTP_201_CREATED)
     
     def destroy(self, request, pk=None):
-        """Handle DELETE requests for a single category
+        """Handles DELETE requests for a single category
 
         Returns:
             Response -- 200, 404, or 500 status code

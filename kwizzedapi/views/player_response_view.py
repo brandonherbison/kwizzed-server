@@ -10,13 +10,14 @@ class PlayerResponseView(ViewSet):
     """PlayerResponse View"""
 
     def retrieve(self, request, pk):
+        """Handles GET requests for single playerResponse"""
 
         playerResponse = PlayerResponse.objects.get(pk=pk)
         serializer = PlayerResponseSerializer(playerResponse)
         return Response(serializer.data, status=status.HTTP_200_OK)
     
     def list(self, request):
-        
+        """Handles GET requests to playerResponse resource"""
 
         playerResponse = PlayerResponse.objects.all()
         player = self.request.query_params.get('player', None)
@@ -62,7 +63,7 @@ class PlayerResponseView(ViewSet):
         return Response(serializer.data , status=status.HTTP_200_OK)
     
     def create(self, request): 
-        """Handle POST operations
+        """Handle POST operations for playerResponse
         Returns:
             Response -- JSON serialized Player_response instance
         """

@@ -12,12 +12,14 @@ class QuestionView(ViewSet):
     """Question View"""
 
     def retrieve(self, request, pk):
+        """Handles GET requests for single question"""
 
         question = Question.objects.get(pk=pk)
         serializer = QuestionSerializer(question)
         return Response(serializer.data, status=status.HTTP_200_OK)
     
     def list(self, request):
+        """Handles GET requests to question resource"""
         player = Player.objects.get(user=request.auth.user)
         questions = Question.objects.filter(player=player)
         category = request.query_params.get("category", None)
@@ -61,7 +63,7 @@ class QuestionView(ViewSet):
 
     
     def create(self, request): 
-        """Handle POST operations
+        """Handles POST operations for questions
         Returns:
             Response -- JSON serialized Question instance
         """
@@ -87,7 +89,7 @@ class QuestionView(ViewSet):
         return Response(serializer.data, status=status.HTTP_201_CREATED)
     
     def update(self, request, pk=None):
-        """Handle PUT requests for a question
+        """Handles PUT requests for a question
         Returns:
             Response -- Empty body with 204 status code
         """
@@ -104,7 +106,7 @@ class QuestionView(ViewSet):
         return Response({}, status=status.HTTP_204_NO_CONTENT)
     
     def destroy(self, request, pk=None):
-        """Handle DELETE requests for a single question
+        """Handles DELETE requests for a single question
         Returns:
             Response -- 200, 404, or 500 status code
         """

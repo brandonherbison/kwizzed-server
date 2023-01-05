@@ -10,6 +10,7 @@ class PlayerView(ViewSet):
     """Player View"""
 
     def retrieve(self, request, pk):
+        """Handles GET requests for single player"""
         if pk == "current":
             user = request.user    
             player = Player.objects.get(user=user)
@@ -31,14 +32,14 @@ class PlayerView(ViewSet):
         return Response(serializer.data, status=status.HTTP_200_OK)
     
     def list(self, request):
-
+        """Handles GET requests to player resource"""
         players = Player.objects.all()
         
         serializer = PlayerSerializer(players, many=True)
         return Response(serializer.data , status=status.HTTP_200_OK)
     
     def update(self, request, pk):
-        """Handle PUT requests for a player
+        """Handles PUT requests for a player
 
         Returns:
             Response -- Empty body with 204 status code
@@ -57,7 +58,7 @@ class PlayerView(ViewSet):
         return Response({}, status=status.HTTP_204_NO_CONTENT)
     
     def destroy(self, request, pk=None):
-        """Handle DELETE requests for a single player
+        """Handles DELETE requests for a single player
 
         Returns:
             Response -- 200, 404, or 500 status code

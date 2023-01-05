@@ -9,19 +9,21 @@ class AnswerView(ViewSet):
     """Answer View"""
 
     def retrieve(self, request, pk):
+        """Handles GET requests for single answer"""
 
         answer = Answer.objects.get(pk=pk)
         serializer = AnswerSerializer(answer)
         return Response(serializer.data, status=status.HTTP_200_OK)
     
     def list(self, request):
+        """Handles GET requests to answer resource"""
 
         answer = Answer.objects.all()
         serializer = AnswerSerializer(answer, many=True)
         return Response(serializer.data , status=status.HTTP_200_OK)
     
     def create(self, request):
-        """Handle POST operations
+        """Handles POST operations for answers
 
         Returns:
             Response -- JSON serialized Answer instance
@@ -39,7 +41,7 @@ class AnswerView(ViewSet):
         return Response(serializer.data, status=status.HTTP_201_CREATED)
     
     def update(self, request, pk=None):
-        """Handle PUT requests for an answer
+        """Handles PUT requests for an answer 
 
         Returns:
             Response -- Empty body with 204 status code

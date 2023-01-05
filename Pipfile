@@ -10,6 +10,7 @@ pylint = "*"
 djangorestframework = "*"
 django-cors-headers = "*"
 pylint-django = "*"
+drf-yasg = "*"
 
 [dev-packages]
 autopep8 = "*"

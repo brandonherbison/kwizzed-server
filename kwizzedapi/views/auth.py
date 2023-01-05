@@ -12,11 +12,11 @@ from kwizzedapi.models import Player
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def login_user(request):
-    '''Handles the authentication of a user
+    """Handles the authentication of a user
 
     Method arguments:
     request -- The full HTTP request object
-    '''
+    """
     username = request.data['username']
     password = request.data['password']
 
