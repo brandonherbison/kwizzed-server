@@ -11,6 +11,9 @@ djangorestframework = "*"
 django-cors-headers = "*"
 pylint-django = "*"
 drf-yasg = "*"
+gunicorn = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 autopep8 = "*"
