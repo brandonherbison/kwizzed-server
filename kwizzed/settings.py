@@ -27,7 +27,7 @@ DEBUG = os.getenv("DEBUG", "False")
 ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS", '').split(",")
 DEVELOPMENT_MODE = os.getenv("DEVELOPMENT_MODE", "False")
 
-DISABLE_COLLECTSTATIC=1
+
 
 
 # Application definition
@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
