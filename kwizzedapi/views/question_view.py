@@ -21,43 +21,48 @@ class QuestionView(ViewSet):
     def list(self, request):
         """Handles GET requests to question resource"""
         player = Player.objects.get(user=request.auth.user)
-        questions = Question.objects.filter(player=player)
+        questions = Question.objects.all()
         category = request.query_params.get("category", None)
+        practice = request.query_params.get("practice", None)
+        approved = request.query_params.get("approved", None)
+        
+        # If the category parameter is provided, the function filters the questions by category and returns a random sample of 10 approved questions
+        # If there are not enough questions in the category, a 404 error message is returned
         if category is not None:
             filtered_questions = Question.objects.filter(category=category)
             if filtered_questions.count() < 10:
                 return Response({"message": "Not enough questions in this category. Please allow us time to generate questions."}, status=status.HTTP_404_NOT_FOUND)
             else:
-                questions = filtered_questions
                 approved_questions = list(filtered_questions.filter(is_approved=True))
                 questions = random.sample(approved_questions, 10)
                 random.shuffle(questions)
                 serializer = QuestionSerializer(questions, many=True, context={'request': request})
                 return Response(serializer.data , status=status.HTTP_200_OK)
-            
-        elif "practice" in request.query_params:
-            filtered_questions = list(Question.objects.filter(is_practice=request.query_params["practice"]))
+        
+        # If the practice parameter is provided, the function filters the questions by practice and returns a random sample of 5 questions
+        elif practice is not None:
+            filtered_questions = list(Question.objects.filter(is_practice=practice))
             questions = random.sample(filtered_questions, 5)
             random.shuffle(questions)
             serializer = QuestionSerializer(questions, many=True, context={'request': request})
             return Response(serializer.data , status=status.HTTP_200_OK)
         
-        elif "player" in request.query_params:
-            filtered_questions = list(Question.objects.filter(player=request.query_params["player"]))
-            questions = filtered_questions
-            serializer = QuestionSerializer(questions, many=True, context={'request': request})
+        # If the player is not None, the function filters the questions by player and returns all questions created by the player
+        elif player is not None and player.user.is_staff is False:
+            filtered_questions = list(Question.objects.filter(player=player))
+            serializer = QuestionSerializer(filtered_questions, many=True, context={'request': request})
             return Response(serializer.data , status=status.HTTP_200_OK)
         
-        elif "approved" in request.query_params:
-            filtered_questions = list(Question.objects.filter(is_approved=request.query_params["approved"]))
-            questions = filtered_questions
-            serializer = QuestionSerializer(questions, many=True, context={'request': request})
+        # If the approved parameter is provided, the function filters the questions by approved status and returns all questions with the specified status
+        elif approved is not None:
+            filtered_questions = list(Question.objects.filter(is_approved=approved))
+            serializer = QuestionSerializer(filtered_questions, many=True, context={'request': request})
             return Response(serializer.data , status=status.HTTP_200_OK)
         
 
             
         
-        
+        # If none of the above parameters are provided, the function returns all questions
         serializer = QuestionSerializer(questions, many=True, context={'request': request})
         return Response(serializer.data , status=status.HTTP_200_OK)
 

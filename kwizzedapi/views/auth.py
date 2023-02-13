@@ -62,7 +62,7 @@ def register_user(request):
     # Now save the extra info in the kwizzedapi_player table
     player = Player.objects.create(
         bio=request.data['bio'],
-        profile_image_url=request.data['profile_image_url'],
+        profile_image_url='https://media.istockphoto.com/id/1132874311/vector/illustration-of-a-human-brain.jpg?s=612x612&w=0&k=20&c=6JhmVEAFFPTIpeHb2Zl2xasuSuBZi1sSZEQU2D-V_3Y=',
         user=new_user
     )
 

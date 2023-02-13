@@ -23,14 +23,15 @@ class PlayerResponseView(ViewSet):
         player = self.request.query_params.get('player', None)
         category = self.request.query_params.get('category', None)
         correct = self.request.query_params.get('correct', None)
-        question = self.request.query_params.get('question', None)
-                
+        
+        # If only the "player" parameter is provided, the function returns the last 10 "PlayerResponse" objects associated with the player, serialized using the "PlayerResponseSerializer" 
         if player is not None and category is None:
             playerResponse = playerResponse.filter(player__id=player)
             playerResponse = playerResponse.order_by('-id')[:10]
             serializer = PlayerResponseSerializer(playerResponse, many=True, context={'request': request})
             return Response(serializer.data, status=status.HTTP_200_OK)
         
+        # If both the "player" and "category" parameters are provided, the function returns the number of correct responses by the player in the specified category
         elif player is not None and category is not None:
             playerResponse = playerResponse.filter(player__id=player)
             playerResponse = playerResponse.filter(answer__question__category__id=category)
@@ -38,15 +39,16 @@ class PlayerResponseView(ViewSet):
             category_count = correct_responses.count()
             return Response(category_count, status=status.HTTP_200_OK)
         
-        
-        elif player is None and category is not None and correct is not None:
+        # If the "category" and "correct" parameters are provided, the function returns the percentage of correct answers in the specified category
+        elif category is not None and correct is not None:
             playerResponse = playerResponse.filter(answer__question__category__id=category)
             correct_responses = playerResponse.filter(answer__is_correct=True)
             correct_count = correct_responses.count()
             percent_correct = round(correct_count / playerResponse.count() * 100)
             return Response(percent_correct, status=status.HTTP_200_OK)
         
-        elif player is None and category is not None and correct is None and question is None:
+        # If the "category" parameter is provided, the function returns the question that is most frequently missed by players in the specified category
+        elif category is not None:
             playerResponses = playerResponse.filter(answer__question__category__id=category)
             incorrect_responses = playerResponses.filter(answer__is_correct=False)
             missed_questions = incorrect_responses.values_list('answer__question__id', flat=True)
@@ -58,7 +60,7 @@ class PlayerResponseView(ViewSet):
         
             
         
-        
+        # If none of the above conditions are met, the function returns all the "PlayerResponse" objects in the database, serialized using the "PlayerResponseSerializer"
         serializer = PlayerResponseSerializer(playerResponse, many=True)
         return Response(serializer.data , status=status.HTTP_200_OK)
     
